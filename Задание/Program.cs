@@ -25,4 +25,4 @@ void Printarray(string[] array) // объявляем метод вывода м
     System.Console.WriteLine();
 }
 array(Array, newarray);
-Printarray(newarray);
+Printarray(newarray); 
