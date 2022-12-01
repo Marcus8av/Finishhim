@@ -3,7 +3,7 @@
 При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.*/
 
 string[] Array = new string[10] {"Love", "In", "Des", "Chanel", "LoL", "invite", "kek", "Good", "cool", "lim",}; // задаем исхродный массив
-string[] newarray = new string[Array.Length];
+string[] newarray = new string[Array.Length]; // задаем новый пустой массив
 void array(string[] array, string[] newarray )
 { 
     int count = 0;
