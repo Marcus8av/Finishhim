@@ -16,7 +16,7 @@ void array(string[] array, string[] newarray ) // объявляем метод 
         }
     }
 }
-void Printarray(string[] array)
+void Printarray(string[] array) // объявляем метод вывода массива
 {
     for (int i = 0; i < array.Length; i++)
     {
