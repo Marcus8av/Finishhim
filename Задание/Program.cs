@@ -4,7 +4,7 @@
 
 string[] Array = new string[10] {"Love", "In", "Des", "Chanel", "LoL", "invite", "kek", "Good", "cool", "lim",}; // задаем исхродный массив
 string[] newarray = new string[Array.Length]; // задаем новый пустой массив
-void array(string[] array, string[] newarray )
+void array(string[] array, string[] newarray ) // объявляем метод где при помощи цикла перебираем элементы в которых длинна строки меньше 3
 { 
     int count = 0;
     for (int i = 0; i < array.Length; i++)
